@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i,900,900i&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header start*/
+header{
+	background-color: #F5F7FA;
+	border: 1px solid #80808066;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.size{
+	font-size: 12px !important;
+	margin-block-end:0em;
+    padding: 10px
+}
+/* header end*/
+
+/* navbar start*/
+.menuName{
+    font-size: 15px;
+    color: #506A85 !important;
+    font-weight: 600;
+}
+.navmenu{
+    padding: 5px 0;
+}
+.navbar-nav{
+    margin-left: 30px;
+}
+/* navbar end*/
+
+/* banner start*/
+.banner{
+	background: url("../images/banner.png");
+	width: 100%;
+	height: 86vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.Made-for-Designers{
+font-size: 60px;
+    color: white;
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+}
+.Made-for-Designers-para{
+	font-size: 16px;
+	color: #a3b1bf;
+}
+.Get-started-now{
+background-color: #00BC9C;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+}
+/* banner end*/
+
+/* beautiful clean responsive start*/
+.beautiful-clean-responsive{
+	padding: 3rem 0;
+}
+.beautiful-clean-responsive-heading{
+	color: #506a85;
+	font-size: 44px;
+}
+.beautiful-clean-responsive-para{
+	color: #73879c;
+	font-size: 16px;
+	}
+.bcricon{
+    color: #00bc9c;
+    padding: 0 10px 0 0;
+    font-size: 40px!important;
+}
+.beautiful-clean-responsive-subheading{
+  color: #506a85;
+    font-size: 22px;
+}
+.beautiful-clean-responsive-subpara{
+    color: #73879c;
+    font-size: 16px;
+}
+/* beautiful clean responsive end*/
+
+/* checkout our latest work start start*/
+.checkout-our-latest-work{
+ padding: 4rem 0;
+background-color: #f2f5f7;
+}
+.checkout-our-latest-work-heading{
+    color: #506a85;
+    font-size: 40px;
+}
+.checkout-our-latest-work-para{
+    color: #73879c;
+    font-size: 18px;
+}
+.work-heading{
+    color: #506a85;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.work-para{
+    color: #73879c;
+    font-size: 14px;
+}
+.work{
+    background-color: white;
+    padding: 0!important;
+} 
+
+/*owl carousel*/
+.carousel-row{
+    margin-top: 4rem;
+}
+.owl-dots{
+    margin-top: 4rem;
+    text-align: center;
+}
+.owl-dots button{
+    display: inline-block;
+    border: 8px solid #506a85!important;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.owl-dots button.active{
+    border-color: #00bc9c!important;
+}
+/* checkout our latest work start end*/
+
+/* want to work with us start start*/
+.want-to-work-with-us{
+    padding: 4rem 0;
+}
+.want-to-work-with-us-heading{
+    color:#506a85;
+    font-size: 40px;
+}
+.want-to-work-with-us-para{
+    color:#73879c;
+    font-size: 18px;
+    justify-content: center
+}
+.Get-started-now{
+    background-color: #00BC9C;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+}
+/* want to work with us start end*/
+
+/* megafooter start*/
+.megafooter{
+    background-color: #2f4052;
+    padding: 3rem 0;
+}
+.megafooter-heading{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.megafooter-subheading{
+    color: #a3b1bf;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.more-abt-us{
+    color: #a3b1bf;
+    font-weight: 600;
+    font-size: 14px;
+}
+.giticon{
+    padding-right: 10px;
+}
+.latest-works-img{
+    width: 125px;
+    height: 90px;
+}
+.LW-img{
+    padding: 5px;
+}
+/*footer*/
+.footer{
+    background-color: #283645;
+    padding: 20px 0;
+}
+.rights{
+    font-size: 14px;
+    color: #707e8c;
+}
+.footerlist li{
+    display: inline;
+    list-style-type: circle;
+    color: #707e8c;
+    font-size: 14px;
+    margin-bottom: 0;
+        padding: 0 10px;
+}
+/* megafooter end*/
+
+@media only screen and (max-width: 530px){
+    .beautiful-clean-responsive-heading {
+    color: #506a85;
+    font-size: 30px;
+}
+    @media only screen and (max-width: 372px){
+    .beautiful-clean-responsive-heading {
+    color: #506a85;
+    font-size: 25px;
+}
+     .footerlist li {
+    display: inline;
+    list-style-type: circle;
+    color: #707e8c;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 0 5px;
+        }
+    
+}
